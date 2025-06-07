@@ -1,0 +1,72 @@
+/* Root container: full height, vertical layout */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+/* Scrollable main area, leaving room for bottom nav */
+.home-container {
+  flex: 1;
+  padding: 16px;
+  padding-bottom: 70px; /* Space for bottom navigation */
+  overflow-y: auto;
+}
+
+/* Welcome section styling */
+.welcome-section {
+  margin: 20px 0;
+}
+
+.welcome-section h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin: 0;
+}
+
+/* Loading message */
+.home-container p {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+/* Mobile devices (up to 767px) */
+@media (max-width: 767px) {
+  .home-container {
+    padding: 12px;
+    padding-bottom: 70px;
+  }
+  
+  .welcome-section h1 {
+    font-size: 20px;
+  }
+}
+
+/* Desktop devices (1024px and up) */
+@media (min-width: 1024px) {
+  .home-container {
+    padding: 20px;
+    padding-bottom: 70px;
+  }
+  
+  .welcome-section h1 {
+    font-size: 28px;
+  }
+}
+
+/* Large desktop devices (1200px and up) */
+@media (min-width: 1200px) {
+  .home-container {
+    padding: 24px;
+    padding-bottom: 70px;
+  }
+  
+  .welcome-section h1 {
+    font-size: 32px;
+  }
+}

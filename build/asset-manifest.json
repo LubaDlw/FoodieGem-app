@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FoodieGem_LubabaloDlwathi/static/css/main.54ad879f.css",
+    "main.js": "/FoodieGem_LubabaloDlwathi/static/js/main.805a684a.js",
+    "static/js/453.cf8d1494.chunk.js": "/FoodieGem_LubabaloDlwathi/static/js/453.cf8d1494.chunk.js",
+    "index.html": "/FoodieGem_LubabaloDlwathi/index.html",
+    "main.54ad879f.css.map": "/FoodieGem_LubabaloDlwathi/static/css/main.54ad879f.css.map",
+    "main.805a684a.js.map": "/FoodieGem_LubabaloDlwathi/static/js/main.805a684a.js.map",
+    "453.cf8d1494.chunk.js.map": "/FoodieGem_LubabaloDlwathi/static/js/453.cf8d1494.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54ad879f.css",
+    "static/js/main.805a684a.js"
+  ]
+}
