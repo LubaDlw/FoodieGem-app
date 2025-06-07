@@ -24,9 +24,3 @@ const getLatLngFromAddress = async (address) => {
 export default getLatLngFromAddress;
 
 
-//Put it in safe
-// "AIzaSyCGzIc7FwUjv-h5m-XijoYstEUO4oBovEY"
-
-// "IzaSyCGzIc7FwUjv-h5m-XijoYstEUO4oBovEY"
-
-// AIzaSyCGzIc7FwUjv-h5m-XijoYstEUO4oBovEY
